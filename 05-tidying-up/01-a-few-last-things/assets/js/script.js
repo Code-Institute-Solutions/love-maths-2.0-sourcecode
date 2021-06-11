@@ -12,18 +12,18 @@ document.addEventListener("DOMContentLoaded", function() {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);
             }
-        })
+        });
     }
 
     document.getElementById("answer-box").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             checkAnswer();
         }
-    })
+    });
 
     runGame("addition");
 
-})
+});
 
 /**
  * The main game "loop", called when the script is first loaded

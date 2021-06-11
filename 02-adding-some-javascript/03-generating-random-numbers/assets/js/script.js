@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 let gameType = this.getAttribute("data-type");
                 alert(`You clicked ${gameType}`);
             }
-        })
+        });
     }
 
-})
+});
 
 /**
  * The main game "loop", called when the script is first loaded

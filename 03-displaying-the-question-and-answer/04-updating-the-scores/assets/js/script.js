@@ -12,12 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);
             }
-        })
+        });
     }
 
     runGame("addition");
 
-})
+});
 
 /**
  * The main game "loop", called when the script is first loaded
